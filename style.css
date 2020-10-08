@@ -236,6 +236,82 @@ font-weight: bolder;
 
 /*Interface 3*/
 
+.section3{
+	display: flex;
+	border: solid #839192 1px;
+	width: 600px;
+	height: 300px;
+	margin: 0 auto; 
+}
+.name{
+	display: flex;
+	margin-top: 80px;
+}
+.box{
+	width: 60%;
+	padding: 30px
+}
+.img3{
+	background-image: url("https://picsum.photos/300/400");
+	background-size: cover;
+	width: 40%;
+	height: 300px;
+}
+
+.img4{
+	background-image: url("https://picsum.photos/100/100");
+	background-size: 333%;
+	background-position: 38% 29%;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.text1{
+	margin: auto;
+	margin-top: -20px;
+}
+.title{
+	font-size: 21px;
+}
+.text{
+	font-size: 15px;
+}
+.text2{
+	padding-left: 15px;
+}
+.title2{
+	font-size: 14px;
+	display: block;
+}
+.text3{
+	font-size: 12px;
+	margin-top: -10px;
+}
+.box2{
+	display: flex;
+}
+.icons{
+    margin-left: 100px;
+    color: #948c8c;
+    display: flex;
+}
+.iconmid{
+	display: flex;
+	align-items: center;
+}
+
+/* responsive */
+
+@media screen and (max-width: 800px){
+	.section2{
+		display: block;
+	}
+	.section3{
+		margin: auto;
+	}
+}
+
+
 
 
 
