@@ -43,10 +43,10 @@
     color: #656565;
 }
 
-h2{
+.section1 div h2{
 
     font-family: 'Roboto Condensed', sans-serif;
-    font-weight: lighter;
+    font-weight: 375;
     color: #88c39c;
 }
 
@@ -61,6 +61,7 @@ h2{
         "item1 item2"
         "item3 item4";
         align-items: center;
+        margin-bottom: 500px;
         
     }
 
@@ -97,6 +98,7 @@ h2{
         "item3" 
         "item4";
         align-items: center;
+        margin-bottom: 1000px;
     }
 
     .box1{
@@ -118,3 +120,200 @@ h2{
     
 
 }
+/*Interface 1 end*/
+
+/*Interface 2*/
+
+.section2{
+
+    width: 339px;
+    background-color: #468df1;
+    border-radius: 1%;
+    border: 10px solid rgb(179, 188, 212);
+    padding: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 6px;
+    margin: 0 auto;
+
+}   
+
+.section2 h1{
+
+    color: hsl(34, 78%, 91%);
+    font-size: medium;
+    font-weight: lighter;
+    padding-left: 17px;
+    padding-top: 10px;
+
+}
+
+.img2{
+    width: 279px;
+    height: 90px;
+
+}
+
+
+.nine{
+
+    color: antiquewhite;
+    font-size: 45px;
+    padding-left: 17px;
+}
+
+.views{
+
+    color: antiquewhite;
+    font-size: 15px;
+    padding-left: 17px;
+}
+
+.top-pages{
+    display: grid;
+    color: antiquewhite;
+    font-size: 15px;
+    padding-left: 17px;
+    grid-template-columns: 10fr 1fr;
+    padding-right: 10px;
+}
+
+.actu1{
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    color: antiquewhite;
+    font-size: 15px;
+    padding-left: 22px;
+
+}
+.actu2{
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    color: antiquewhite;
+    font-size: 15px;
+    padding-left: 22px;
+}
+.actu3{
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    color: antiquewhite;
+    font-size: 15px;
+    padding-left: 22px;
+}
+.actu4{
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    color: antiquewhite;
+    font-size: 15px;
+    padding-left: 22px;
+}
+.tele{
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    color: antiquewhite;
+    font-size: 15px;
+    padding-left: 22px;
+}
+
+.hr1{
+    padding-left: 10px;
+
+}
+
+
+.report h1{
+text-align: right;
+font-weight: bolder;
+}
+
+.report{
+
+    height: 50px;
+
+}
+
+
+/*Interface 2 end*/
+
+/*Interface 3*/
+
+.section3{
+	display: flex;
+	border: solid #839192 1px;
+	width: 600px;
+	height: 300px;
+	margin: 0 auto; 
+}
+.name{
+	display: flex;
+	margin-top: 80px;
+}
+.box{
+	width: 60%;
+	padding: 30px
+}
+.img3{
+	background-image: url("https://picsum.photos/300/400");
+	background-size: cover;
+	width: 40%;
+	height: 300px;
+}
+
+.img4{
+	background-image: url("https://picsum.photos/100/100");
+	background-size: 333%;
+	background-position: 38% 29%;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.text1{
+	margin: auto;
+	margin-top: -20px;
+}
+.title{
+	font-size: 21px;
+}
+.text{
+	font-size: 15px;
+}
+.text2{
+	padding-left: 15px;
+}
+.title2{
+	font-size: 14px;
+	display: block;
+}
+.text3{
+	font-size: 12px;
+	margin-top: -10px;
+}
+.box2{
+	display: flex;
+}
+.icons{
+    margin-left: 100px;
+    color: #948c8c;
+    display: flex;
+}
+.iconmid{
+	display: flex;
+	align-items: center;
+}
+
+/* responsive */
+
+@media screen and (max-width: 800px){
+	.section2{
+		display: block;
+	}
+	.section3{
+		margin: auto;
+	}
+}
+
+
+
+
+
+
+
