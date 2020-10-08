@@ -1,3 +1,3 @@
 # End of Prairie : Technical challenge
 
-[Visit my page!]https://ibrahim-sho.github.io/css-integration-challenge/
+What a nice way to end [The field](https://ibrahim-sho.github.io/css-integration-challenge/).https://ibrahim-sho.github.io/css-integration-challenge/)
