@@ -1,3 +1,3 @@
-# css-integration-challenge
+# End of Prairie : Technical challenge
 
-https://ibrahim-sho.github.io/css-integration-challenge/
+[Visit my page!](https://ibrahim-sho.github.io/css-integration-challenge/
